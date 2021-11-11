@@ -1,0 +1,53 @@
+.nav-item{
+     padding: 10px;
+}
+.a1{
+     background-image: url("./assets/image/foodwala\ background.jpg");
+     max-width: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 700px;
+     padding-top: 30px;
+}
+h1{
+     padding: 20px;
+     color: white;
+}
+p{
+   color: white;  
+   padding: 10px 300px;  
+}
+h3{
+     color: white;
+     padding: 40px;
+}
+h6{
+     color: white;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+.a2{
+     background-position: center;
+     background-size: cover;
+     height: 500px;
+
+     background:linear-gradient(to right, transparent, rgb(54, 41, 40)),
+      url("./assets/images/order-background.jpg");
+}
+.a2 form{
+     padding: 40px;
+     text-align: center;
+}
+.a2 form label{
+     color: white;
+}
+.a2 button{
+     text-align: center;
+     padding: 10px 20px;
+     border-radius: 20px;
+     border: 1px solid black;
+     font-weight: bold;
+}

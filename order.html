@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="https://kit.fontawesome.com/f68f7ad264.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="style.css">
+     <title>FoodWala</title>
+</head>
+<body>
+
+
+
+         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+       Foodwala
+    <img src="./assets/image/logo.jpg" alt="logo" style="width:40px;">
+
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav" style="padding-left: 700px;">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="order.html">Order Food</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact Us</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Locate Us</a>
+    </li>
+  </ul>
+     </nav>
+     
+     <div class="a2">
+
+    
+   <form action="#">
+
+        <ol>
+            <li>
+                 <label for="">Choose Restrurent Type:</label> <br>
+                 <select name="restrurent" id="restrurent">
+
+                 <option value="Indian">Indian Food</option>
+                 <option value="Chinese">Chinese Food</option>
+                 </select>
+            </li>
+
+
+            <li>
+                 <label for="">Choose Chinese Type:</label> <br>
+                 <select name="chinese" id="chinese">
+                 <option value="pizza">Pizza</option>
+                 <option value="sushi">Sushi</option>
+                 </select>
+                 
+            </li>
+           
+            <li>
+                  <label for="">Choose Indian Type:</label> <br>
+                  <select name="" id="indian">
+                 <option value="donuts">Donuts</option>
+                 <option value="others">Others</option>
+                 </select>
+                 
+             </li>
+        </ol>
+         <button type="submit" onclick="total()">Order Food</button>
+   </form>
+ 
+ </div>
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+  
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+
+</footer>
+
+
+
+       <script>
+          
+        function total()
+        {
+          let x= document.getElementById('restrurent');
+            let y=document.getElementById('chinese');
+            let z=document.getElementById('indian');
+            var a= document.getElementById('subtotal');
+            var total=0;
+            if(y=='pizza'){
+                 total=total+200;
+            }
+            if(y=='sushi')
+            {
+                 total=total+300;
+            }
+            if(z=='donuts')
+            {
+                 total=total+100;
+            }
+            console.log(total)
+           document.getElementById("subtotal").innerHTML= total;
+
+          }
+     
+       </script>
+     </body>
+     </html>
